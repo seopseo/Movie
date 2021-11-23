@@ -11,4 +11,4 @@ const Movie = ({ title, genres, cover, summary, year }) => {
     )
 }
 
-export default Movie 
+export default Movie  

@@ -18,7 +18,7 @@ const Login = () => {
     const isNotValid = (user) => {
         console.log(user)
         return user.id === '' || user.password === ''
-    }
+    } 
 
     const handelLogin = () => {
         const user = JSON.parse(sessionStorage.getItem('user'))

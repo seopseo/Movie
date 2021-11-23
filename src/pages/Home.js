@@ -29,7 +29,7 @@ const Home = () => {
 
     const sortByYear = (e) => {
         setIsSorted(isSorted * -1)
-    }
+    } 
 
     const homeUI = movies
                         .filter(movie => {

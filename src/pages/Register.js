@@ -14,7 +14,7 @@ const Register = () => {
         const { name, value } = e.target
         name === 'id' ? setId(value) : setPassword(value)
         console.log(name, value)
-    }
+    } 
 
     const handleRegister = () => {
         // 사용자 정보가 있으면 로그인 페이지로 이동
