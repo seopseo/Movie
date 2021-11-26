@@ -2,12 +2,13 @@
     width: 230px;
     height: 500px;
     margin: 10px;
-    color: white;
+    color: #a9a9a9;
     font-weight: bold;
     cursor: pointer;
     box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
     background: url('../assets/images/background.jpg');
+    text-align: center;
 }
 .movie-container:hover{
     transform: scale(1.05);
-} 
+}
